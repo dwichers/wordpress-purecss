@@ -3,11 +3,13 @@
 Plugin Name: Pure CSS
 Plugin URI: http://purecss.io
 Description: Include individual Pure CSS stylesheets
-Version: 1.0
+Version: 1.1
 Author: Daniel Wichers
 Author URI: http://danielwichers.nl
 License: GPLv2 or later
 */
+include_once('updater.php');
+include_once('github-plugin-updater.php');
 
 // Pure CSS settings
     $purecss_version = "0.3.0";
